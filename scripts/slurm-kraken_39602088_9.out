@@ -1,0 +1,4 @@
+Input trimmed R1 is /data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF5_metawrap.bin.1.mapped.R1.fq
+Input trimmed R2 is /data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF5_metawrap.bin.1.mapped.R2.fq
+Output saved in /data/NCBR/projects/NCBR-492/data/manual_analysis/kraken
+Kraken done!

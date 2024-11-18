@@ -1,0 +1,68 @@
+awk: cmd. line:2: NR==
+awk: cmd. line:2:     ^ unexpected newline or end of string
+2024-11-15T21:03:53.385Z INFO  [sylph::sketch] Sketching paired sequences...
+2024-11-15T21:04:58.707Z INFO  [sylph::sketch] Sketching /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF12.trimmed.R1.fastq.paired.sylsp complete.
+2024-11-15T21:05:12.961Z INFO  [sylph::sketch] Sketching /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF4.trimmed.R1.fastq.paired.sylsp complete.
+2024-11-15T21:05:17.395Z INFO  [sylph::sketch] Sketching /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF3.trimmed.R1.fastq.paired.sylsp complete.
+2024-11-15T21:05:30.728Z INFO  [sylph::sketch] Sketching /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF2.trimmed.R1.fastq.paired.sylsp complete.
+2024-11-15T21:05:31.208Z INFO  [sylph::sketch] Sketching /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF8.trimmed.R1.fastq.paired.sylsp complete.
+2024-11-15T21:05:42.572Z INFO  [sylph::sketch] Sketching /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF10.trimmed.R1.fastq.paired.sylsp complete.
+2024-11-15T21:05:49.555Z INFO  [sylph::sketch] Sketching /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF17.trimmed.R1.fastq.paired.sylsp complete.
+2024-11-15T21:05:52.481Z INFO  [sylph::sketch] Sketching /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF5.trimmed.R1.fastq.paired.sylsp complete.
+2024-11-15T21:06:00.620Z INFO  [sylph::sketch] Sketching /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF18.trimmed.R1.fastq.paired.sylsp complete.
+2024-11-15T21:06:03.992Z INFO  [sylph::sketch] Sketching /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF1.trimmed.R1.fastq.paired.sylsp complete.
+2024-11-15T21:06:10.235Z INFO  [sylph::sketch] Sketching /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF6.trimmed.R1.fastq.paired.sylsp complete.
+2024-11-15T21:06:10.236Z INFO  [sylph::sketch] Finished.
+All reads are sketched
+2024-11-15T21:06:10.260Z INFO  [sylph::contain] Obtaining sketches...
+2024-11-15T21:06:56.469Z INFO  [sylph::contain] Finished obtaining genome sketches.
+2024-11-15T21:07:00.581Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF10.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:07:08.744Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF12.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:07:15.307Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF17.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:07:20.314Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF18.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:07:26.032Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF1.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:07:30.098Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF2.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:07:34.182Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF3.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:07:38.510Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF4.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:07:42.726Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF5.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:07:47.563Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF6.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:07:51.626Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF8.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:07:51.628Z INFO  [sylph::contain] sylph finished.
+Query done
+2024-11-15T21:07:52.522Z INFO  [sylph::contain] Obtaining sketches...
+2024-11-15T21:08:38.801Z INFO  [sylph::contain] Finished obtaining genome sketches.
+2024-11-15T21:08:58.227Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF2.trimmed.R1.fastq.paired.sylsp taxonomic profiling; reassigning k-mers for 100 genomes...
+2024-11-15T21:08:58.950Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF2.trimmed.R1.fastq.paired.sylsp has 12 genomes passing profiling threshold. 
+2024-11-15T21:08:58.954Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF2.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:08:59.770Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF10.trimmed.R1.fastq.paired.sylsp taxonomic profiling; reassigning k-mers for 75 genomes...
+2024-11-15T21:09:00.550Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF10.trimmed.R1.fastq.paired.sylsp has 11 genomes passing profiling threshold. 
+2024-11-15T21:09:00.552Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF10.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:09:01.921Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF18.trimmed.R1.fastq.paired.sylsp taxonomic profiling; reassigning k-mers for 60 genomes...
+2024-11-15T21:09:04.348Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF18.trimmed.R1.fastq.paired.sylsp has 6 genomes passing profiling threshold. 
+2024-11-15T21:09:04.351Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF18.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:09:04.878Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF1.trimmed.R1.fastq.paired.sylsp taxonomic profiling; reassigning k-mers for 60 genomes...
+2024-11-15T21:09:07.337Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF1.trimmed.R1.fastq.paired.sylsp has 6 genomes passing profiling threshold. 
+2024-11-15T21:09:07.341Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF1.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:09:08.713Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF17.trimmed.R1.fastq.paired.sylsp taxonomic profiling; reassigning k-mers for 45 genomes...
+2024-11-15T21:09:11.897Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF17.trimmed.R1.fastq.paired.sylsp has 9 genomes passing profiling threshold. 
+2024-11-15T21:09:11.900Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF17.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:09:15.455Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF12.trimmed.R1.fastq.paired.sylsp taxonomic profiling; reassigning k-mers for 56 genomes...
+2024-11-15T21:09:17.798Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF12.trimmed.R1.fastq.paired.sylsp has 7 genomes passing profiling threshold. 
+2024-11-15T21:09:17.801Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF12.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:09:35.672Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF3.trimmed.R1.fastq.paired.sylsp taxonomic profiling; reassigning k-mers for 56 genomes...
+2024-11-15T21:09:36.332Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF5.trimmed.R1.fastq.paired.sylsp taxonomic profiling; reassigning k-mers for 56 genomes...
+2024-11-15T21:09:37.189Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF4.trimmed.R1.fastq.paired.sylsp taxonomic profiling; reassigning k-mers for 13 genomes...
+2024-11-15T21:09:37.381Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF8.trimmed.R1.fastq.paired.sylsp taxonomic profiling; reassigning k-mers for 3 genomes...
+2024-11-15T21:09:38.089Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF8.trimmed.R1.fastq.paired.sylsp has 2 genomes passing profiling threshold. 
+2024-11-15T21:09:38.091Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF8.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:09:38.816Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF3.trimmed.R1.fastq.paired.sylsp has 5 genomes passing profiling threshold. 
+2024-11-15T21:09:38.816Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF5.trimmed.R1.fastq.paired.sylsp has 5 genomes passing profiling threshold. 
+2024-11-15T21:09:38.821Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF3.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:09:38.821Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF5.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:09:39.043Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF4.trimmed.R1.fastq.paired.sylsp has 3 genomes passing profiling threshold. 
+2024-11-15T21:09:39.047Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF4.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:09:40.004Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF6.trimmed.R1.fastq.paired.sylsp taxonomic profiling; reassigning k-mers for 37 genomes...
+2024-11-15T21:09:41.024Z INFO  [sylph::contain] /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF6.trimmed.R1.fastq.paired.sylsp has 7 genomes passing profiling threshold. 
+2024-11-15T21:09:41.026Z INFO  [sylph::contain] Finished sample /data/NCBR/projects/NCBR-492/data/manual_analysis/sylph/sketches/SF6.trimmed.R1.fastq.paired.sylsp.
+2024-11-15T21:09:41.026Z INFO  [sylph::contain] sylph finished.
+Profile done!

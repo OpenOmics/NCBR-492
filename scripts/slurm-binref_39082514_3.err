@@ -1,0 +1,617 @@
+stty: 'standard input': Inappropriate ioctl for device
+rm: cannot remove '/data/NCBR/projects/NCBR-492/data/manual_analysis/bin_refinement/SF17/binsA': No such file or directory
+rm: cannot remove '/data/NCBR/projects/NCBR-492/data/manual_analysis/bin_refinement/SF17/binsB': No such file or directory
+rm: cannot remove '/data/NCBR/projects/NCBR-492/data/manual_analysis/bin_refinement/SF17/binsC': No such file or directory
+rm: cannot remove '/data/NCBR/projects/NCBR-492/data/manual_analysis/bin_refinement/SF17/binsAB': No such file or directory
+rm: cannot remove '/data/NCBR/projects/NCBR-492/data/manual_analysis/bin_refinement/SF17/binsBC': No such file or directory
+rm: cannot remove '/data/NCBR/projects/NCBR-492/data/manual_analysis/bin_refinement/SF17/binsAC': No such file or directory
+rm: cannot remove '/data/NCBR/projects/NCBR-492/data/manual_analysis/bin_refinement/SF17/binsABC': No such file or directory
+rm: cannot remove '/data/NCBR/projects/NCBR-492/data/manual_analysis/bin_refinement/SF17/bin.*': No such file or directory
+
+*******************************************************************************
+ [CheckM - tree] Placing bins in reference genome tree.
+*******************************************************************************
+
+  Identifying marker genes in 2 bins with 16 threads:
+    Finished processing 0 of 2 (0.00%) bins.    Finished processing 1 of 2 (50.00%) bins.    Finished processing 2 of 2 (100.00%) bins.
+  Saving HMM info to file.
+
+  Calculating genome statistics for 2 bins with 16 threads:
+    Finished processing 0 of 2 (0.00%) bins.    Finished processing 1 of 2 (50.00%) bins.    Finished processing 2 of 2 (100.00%) bins.
+
+  Extracting marker genes to align.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 2 (50.00%) bins.    Finished parsing hits for 2 of 2 (100.00%) bins.
+  Extracting 43 HMMs with 16 threads:
+    Finished extracting 0 of 43 (0.00%) HMMs.    Finished extracting 1 of 43 (2.33%) HMMs.    Finished extracting 2 of 43 (4.65%) HMMs.    Finished extracting 3 of 43 (6.98%) HMMs.    Finished extracting 4 of 43 (9.30%) HMMs.    Finished extracting 5 of 43 (11.63%) HMMs.    Finished extracting 6 of 43 (13.95%) HMMs.    Finished extracting 7 of 43 (16.28%) HMMs.    Finished extracting 8 of 43 (18.60%) HMMs.    Finished extracting 9 of 43 (20.93%) HMMs.    Finished extracting 10 of 43 (23.26%) HMMs.    Finished extracting 11 of 43 (25.58%) HMMs.    Finished extracting 12 of 43 (27.91%) HMMs.    Finished extracting 13 of 43 (30.23%) HMMs.    Finished extracting 14 of 43 (32.56%) HMMs.    Finished extracting 15 of 43 (34.88%) HMMs.    Finished extracting 16 of 43 (37.21%) HMMs.    Finished extracting 17 of 43 (39.53%) HMMs.    Finished extracting 18 of 43 (41.86%) HMMs.    Finished extracting 19 of 43 (44.19%) HMMs.    Finished extracting 20 of 43 (46.51%) HMMs.    Finished extracting 21 of 43 (48.84%) HMMs.    Finished extracting 22 of 43 (51.16%) HMMs.    Finished extracting 23 of 43 (53.49%) HMMs.    Finished extracting 24 of 43 (55.81%) HMMs.    Finished extracting 25 of 43 (58.14%) HMMs.    Finished extracting 26 of 43 (60.47%) HMMs.    Finished extracting 27 of 43 (62.79%) HMMs.    Finished extracting 28 of 43 (65.12%) HMMs.    Finished extracting 29 of 43 (67.44%) HMMs.    Finished extracting 30 of 43 (69.77%) HMMs.    Finished extracting 31 of 43 (72.09%) HMMs.    Finished extracting 32 of 43 (74.42%) HMMs.    Finished extracting 33 of 43 (76.74%) HMMs.    Finished extracting 34 of 43 (79.07%) HMMs.    Finished extracting 35 of 43 (81.40%) HMMs.    Finished extracting 36 of 43 (83.72%) HMMs.    Finished extracting 37 of 43 (86.05%) HMMs.    Finished extracting 38 of 43 (88.37%) HMMs.    Finished extracting 39 of 43 (90.70%) HMMs.    Finished extracting 40 of 43 (93.02%) HMMs.    Finished extracting 41 of 43 (95.35%) HMMs.    Finished extracting 42 of 43 (97.67%) HMMs.    Finished extracting 43 of 43 (100.00%) HMMs.
+  Aligning 43 marker genes with 16 threads:
+    Finished aligning 0 of 43 (0.00%) marker genes.    Finished aligning 1 of 43 (2.33%) marker genes.    Finished aligning 2 of 43 (4.65%) marker genes.    Finished aligning 3 of 43 (6.98%) marker genes.    Finished aligning 4 of 43 (9.30%) marker genes.    Finished aligning 5 of 43 (11.63%) marker genes.    Finished aligning 6 of 43 (13.95%) marker genes.    Finished aligning 7 of 43 (16.28%) marker genes.    Finished aligning 8 of 43 (18.60%) marker genes.    Finished aligning 9 of 43 (20.93%) marker genes.    Finished aligning 10 of 43 (23.26%) marker genes.    Finished aligning 11 of 43 (25.58%) marker genes.    Finished aligning 12 of 43 (27.91%) marker genes.    Finished aligning 13 of 43 (30.23%) marker genes.    Finished aligning 14 of 43 (32.56%) marker genes.    Finished aligning 15 of 43 (34.88%) marker genes.    Finished aligning 16 of 43 (37.21%) marker genes.    Finished aligning 17 of 43 (39.53%) marker genes.    Finished aligning 18 of 43 (41.86%) marker genes.    Finished aligning 19 of 43 (44.19%) marker genes.    Finished aligning 20 of 43 (46.51%) marker genes.    Finished aligning 21 of 43 (48.84%) marker genes.    Finished aligning 22 of 43 (51.16%) marker genes.    Finished aligning 23 of 43 (53.49%) marker genes.    Finished aligning 24 of 43 (55.81%) marker genes.    Finished aligning 25 of 43 (58.14%) marker genes.    Finished aligning 26 of 43 (60.47%) marker genes.    Finished aligning 27 of 43 (62.79%) marker genes.    Finished aligning 28 of 43 (65.12%) marker genes.    Finished aligning 29 of 43 (67.44%) marker genes.    Finished aligning 30 of 43 (69.77%) marker genes.    Finished aligning 31 of 43 (72.09%) marker genes.    Finished aligning 32 of 43 (74.42%) marker genes.    Finished aligning 33 of 43 (76.74%) marker genes.    Finished aligning 34 of 43 (79.07%) marker genes.    Finished aligning 35 of 43 (81.40%) marker genes.    Finished aligning 36 of 43 (83.72%) marker genes.    Finished aligning 37 of 43 (86.05%) marker genes.    Finished aligning 38 of 43 (88.37%) marker genes.    Finished aligning 39 of 43 (90.70%) marker genes.    Finished aligning 40 of 43 (93.02%) marker genes.    Finished aligning 41 of 43 (95.35%) marker genes.    Finished aligning 42 of 43 (97.67%) marker genes.    Finished aligning 43 of 43 (100.00%) marker genes.
+
+  Reading marker alignment files.
+  Concatenating alignments.
+  Placing 2 bins into the genome tree with pplacer (be patient).
+
+  { Current stage: 0:03:25.441 || Total: 0:03:25.441 }
+
+*******************************************************************************
+ [CheckM - lineage_set] Inferring lineage-specific marker sets.
+*******************************************************************************
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 2 (50.00%) bins.    Finished parsing hits for 2 of 2 (100.00%) bins.
+
+  Determining marker sets for each genome bin.
+    Finished processing 1 of 2 (50.00%) bins (current: bin.1).                                                                  Finished processing 2 of 2 (100.00%) bins (current: bin.unbinned).
+
+  Marker set written to: binsA.checkm/lineage.ms
+
+  { Current stage: 0:00:00.720 || Total: 0:03:26.162 }
+
+*******************************************************************************
+ [CheckM - analyze] Identifying marker genes in bins.
+*******************************************************************************
+
+  Identifying marker genes in 2 bins with 16 threads:
+    Finished processing 0 of 2 (0.00%) bins.    Finished processing 1 of 2 (50.00%) bins.    Finished processing 2 of 2 (100.00%) bins.
+  Saving HMM info to file.
+
+  { Current stage: 0:01:26.795 || Total: 0:04:52.957 }
+
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 2 (50.00%) bins.    Finished parsing hits for 2 of 2 (100.00%) bins.
+  Aligning marker genes with multiple hits in a single bin:
+    Finished processing 0 of 2 (0.00%) bins.    Finished processing 1 of 2 (50.00%) bins.    Finished processing 2 of 2 (100.00%) bins.
+
+  { Current stage: 0:00:00.652 || Total: 0:04:53.609 }
+
+  Calculating genome statistics for 2 bins with 16 threads:
+    Finished processing 0 of 2 (0.00%) bins.    Finished processing 1 of 2 (50.00%) bins.    Finished processing 2 of 2 (100.00%) bins.
+
+  { Current stage: 0:00:00.172 || Total: 0:04:53.781 }
+
+*******************************************************************************
+ [CheckM - qa] Tabulating genome statistics.
+*******************************************************************************
+
+  Calculating AAI between multi-copy marker genes.
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 2 (50.00%) bins.    Finished parsing hits for 2 of 2 (100.00%) bins.
+
+
+  { Current stage: 0:00:00.804 || Total: 0:04:54.586 }
+
+*******************************************************************************
+ [CheckM - tree] Placing bins in reference genome tree.
+*******************************************************************************
+
+  Identifying marker genes in 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+  Saving HMM info to file.
+
+  Calculating genome statistics for 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  Extracting marker genes to align.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+  Extracting 43 HMMs with 16 threads:
+    Finished extracting 0 of 43 (0.00%) HMMs.    Finished extracting 1 of 43 (2.33%) HMMs.    Finished extracting 2 of 43 (4.65%) HMMs.    Finished extracting 3 of 43 (6.98%) HMMs.    Finished extracting 4 of 43 (9.30%) HMMs.    Finished extracting 5 of 43 (11.63%) HMMs.    Finished extracting 6 of 43 (13.95%) HMMs.    Finished extracting 7 of 43 (16.28%) HMMs.    Finished extracting 8 of 43 (18.60%) HMMs.    Finished extracting 9 of 43 (20.93%) HMMs.    Finished extracting 10 of 43 (23.26%) HMMs.    Finished extracting 11 of 43 (25.58%) HMMs.    Finished extracting 12 of 43 (27.91%) HMMs.    Finished extracting 13 of 43 (30.23%) HMMs.    Finished extracting 14 of 43 (32.56%) HMMs.    Finished extracting 15 of 43 (34.88%) HMMs.    Finished extracting 16 of 43 (37.21%) HMMs.    Finished extracting 17 of 43 (39.53%) HMMs.    Finished extracting 18 of 43 (41.86%) HMMs.    Finished extracting 19 of 43 (44.19%) HMMs.    Finished extracting 20 of 43 (46.51%) HMMs.    Finished extracting 21 of 43 (48.84%) HMMs.    Finished extracting 22 of 43 (51.16%) HMMs.    Finished extracting 23 of 43 (53.49%) HMMs.    Finished extracting 24 of 43 (55.81%) HMMs.    Finished extracting 25 of 43 (58.14%) HMMs.    Finished extracting 26 of 43 (60.47%) HMMs.    Finished extracting 27 of 43 (62.79%) HMMs.    Finished extracting 28 of 43 (65.12%) HMMs.    Finished extracting 29 of 43 (67.44%) HMMs.    Finished extracting 30 of 43 (69.77%) HMMs.    Finished extracting 31 of 43 (72.09%) HMMs.    Finished extracting 32 of 43 (74.42%) HMMs.    Finished extracting 33 of 43 (76.74%) HMMs.    Finished extracting 34 of 43 (79.07%) HMMs.    Finished extracting 35 of 43 (81.40%) HMMs.    Finished extracting 36 of 43 (83.72%) HMMs.    Finished extracting 37 of 43 (86.05%) HMMs.    Finished extracting 38 of 43 (88.37%) HMMs.    Finished extracting 39 of 43 (90.70%) HMMs.    Finished extracting 40 of 43 (93.02%) HMMs.    Finished extracting 41 of 43 (95.35%) HMMs.    Finished extracting 42 of 43 (97.67%) HMMs.    Finished extracting 43 of 43 (100.00%) HMMs.
+  Aligning 43 marker genes with 16 threads:
+    Finished aligning 0 of 43 (0.00%) marker genes.    Finished aligning 1 of 43 (2.33%) marker genes.    Finished aligning 2 of 43 (4.65%) marker genes.    Finished aligning 3 of 43 (6.98%) marker genes.    Finished aligning 4 of 43 (9.30%) marker genes.    Finished aligning 5 of 43 (11.63%) marker genes.    Finished aligning 6 of 43 (13.95%) marker genes.    Finished aligning 7 of 43 (16.28%) marker genes.    Finished aligning 8 of 43 (18.60%) marker genes.    Finished aligning 9 of 43 (20.93%) marker genes.    Finished aligning 10 of 43 (23.26%) marker genes.    Finished aligning 11 of 43 (25.58%) marker genes.    Finished aligning 12 of 43 (27.91%) marker genes.    Finished aligning 13 of 43 (30.23%) marker genes.    Finished aligning 14 of 43 (32.56%) marker genes.    Finished aligning 15 of 43 (34.88%) marker genes.    Finished aligning 16 of 43 (37.21%) marker genes.    Finished aligning 17 of 43 (39.53%) marker genes.    Finished aligning 18 of 43 (41.86%) marker genes.    Finished aligning 19 of 43 (44.19%) marker genes.    Finished aligning 20 of 43 (46.51%) marker genes.    Finished aligning 21 of 43 (48.84%) marker genes.    Finished aligning 22 of 43 (51.16%) marker genes.    Finished aligning 23 of 43 (53.49%) marker genes.    Finished aligning 24 of 43 (55.81%) marker genes.    Finished aligning 25 of 43 (58.14%) marker genes.    Finished aligning 26 of 43 (60.47%) marker genes.    Finished aligning 27 of 43 (62.79%) marker genes.    Finished aligning 28 of 43 (65.12%) marker genes.    Finished aligning 29 of 43 (67.44%) marker genes.    Finished aligning 30 of 43 (69.77%) marker genes.    Finished aligning 31 of 43 (72.09%) marker genes.    Finished aligning 32 of 43 (74.42%) marker genes.    Finished aligning 33 of 43 (76.74%) marker genes.    Finished aligning 34 of 43 (79.07%) marker genes.    Finished aligning 35 of 43 (81.40%) marker genes.    Finished aligning 36 of 43 (83.72%) marker genes.    Finished aligning 37 of 43 (86.05%) marker genes.    Finished aligning 38 of 43 (88.37%) marker genes.    Finished aligning 39 of 43 (90.70%) marker genes.    Finished aligning 40 of 43 (93.02%) marker genes.    Finished aligning 41 of 43 (95.35%) marker genes.    Finished aligning 42 of 43 (97.67%) marker genes.    Finished aligning 43 of 43 (100.00%) marker genes.
+
+  Reading marker alignment files.
+  Concatenating alignments.
+  Placing 1 bins into the genome tree with pplacer (be patient).
+
+  { Current stage: 0:03:24.031 || Total: 0:03:24.031 }
+
+*******************************************************************************
+ [CheckM - lineage_set] Inferring lineage-specific marker sets.
+*******************************************************************************
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+
+  Determining marker sets for each genome bin.
+    Finished processing 1 of 1 (100.00%) bins (current: Refined_1).
+
+  Marker set written to: binsAB.checkm/lineage.ms
+
+  { Current stage: 0:00:00.713 || Total: 0:03:24.744 }
+
+*******************************************************************************
+ [CheckM - analyze] Identifying marker genes in bins.
+*******************************************************************************
+
+  Identifying marker genes in 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+  Saving HMM info to file.
+
+  { Current stage: 0:01:28.747 || Total: 0:04:53.492 }
+
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+  Aligning marker genes with multiple hits in a single bin:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  { Current stage: 0:00:00.622 || Total: 0:04:54.114 }
+
+  Calculating genome statistics for 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  { Current stage: 0:00:00.175 || Total: 0:04:54.290 }
+
+*******************************************************************************
+ [CheckM - qa] Tabulating genome statistics.
+*******************************************************************************
+
+  Calculating AAI between multi-copy marker genes.
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+
+
+  { Current stage: 0:00:00.771 || Total: 0:04:55.062 }
+
+*******************************************************************************
+ [CheckM - tree] Placing bins in reference genome tree.
+*******************************************************************************
+
+  Identifying marker genes in 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+  Saving HMM info to file.
+
+  Calculating genome statistics for 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  Extracting marker genes to align.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+  Extracting 43 HMMs with 16 threads:
+    Finished extracting 0 of 43 (0.00%) HMMs.    Finished extracting 1 of 43 (2.33%) HMMs.    Finished extracting 2 of 43 (4.65%) HMMs.    Finished extracting 3 of 43 (6.98%) HMMs.    Finished extracting 4 of 43 (9.30%) HMMs.    Finished extracting 5 of 43 (11.63%) HMMs.    Finished extracting 6 of 43 (13.95%) HMMs.    Finished extracting 7 of 43 (16.28%) HMMs.    Finished extracting 8 of 43 (18.60%) HMMs.    Finished extracting 9 of 43 (20.93%) HMMs.    Finished extracting 10 of 43 (23.26%) HMMs.    Finished extracting 11 of 43 (25.58%) HMMs.    Finished extracting 12 of 43 (27.91%) HMMs.    Finished extracting 13 of 43 (30.23%) HMMs.    Finished extracting 14 of 43 (32.56%) HMMs.    Finished extracting 15 of 43 (34.88%) HMMs.    Finished extracting 16 of 43 (37.21%) HMMs.    Finished extracting 17 of 43 (39.53%) HMMs.    Finished extracting 18 of 43 (41.86%) HMMs.    Finished extracting 19 of 43 (44.19%) HMMs.    Finished extracting 20 of 43 (46.51%) HMMs.    Finished extracting 21 of 43 (48.84%) HMMs.    Finished extracting 22 of 43 (51.16%) HMMs.    Finished extracting 23 of 43 (53.49%) HMMs.    Finished extracting 24 of 43 (55.81%) HMMs.    Finished extracting 25 of 43 (58.14%) HMMs.    Finished extracting 26 of 43 (60.47%) HMMs.    Finished extracting 27 of 43 (62.79%) HMMs.    Finished extracting 28 of 43 (65.12%) HMMs.    Finished extracting 29 of 43 (67.44%) HMMs.    Finished extracting 30 of 43 (69.77%) HMMs.    Finished extracting 31 of 43 (72.09%) HMMs.    Finished extracting 32 of 43 (74.42%) HMMs.    Finished extracting 33 of 43 (76.74%) HMMs.    Finished extracting 34 of 43 (79.07%) HMMs.    Finished extracting 35 of 43 (81.40%) HMMs.    Finished extracting 36 of 43 (83.72%) HMMs.    Finished extracting 37 of 43 (86.05%) HMMs.    Finished extracting 38 of 43 (88.37%) HMMs.    Finished extracting 39 of 43 (90.70%) HMMs.    Finished extracting 40 of 43 (93.02%) HMMs.    Finished extracting 41 of 43 (95.35%) HMMs.    Finished extracting 42 of 43 (97.67%) HMMs.    Finished extracting 43 of 43 (100.00%) HMMs.
+  Aligning 43 marker genes with 16 threads:
+    Finished aligning 0 of 43 (0.00%) marker genes.    Finished aligning 1 of 43 (2.33%) marker genes.    Finished aligning 2 of 43 (4.65%) marker genes.    Finished aligning 3 of 43 (6.98%) marker genes.    Finished aligning 4 of 43 (9.30%) marker genes.    Finished aligning 5 of 43 (11.63%) marker genes.    Finished aligning 6 of 43 (13.95%) marker genes.    Finished aligning 7 of 43 (16.28%) marker genes.    Finished aligning 8 of 43 (18.60%) marker genes.    Finished aligning 9 of 43 (20.93%) marker genes.    Finished aligning 10 of 43 (23.26%) marker genes.    Finished aligning 11 of 43 (25.58%) marker genes.    Finished aligning 12 of 43 (27.91%) marker genes.    Finished aligning 13 of 43 (30.23%) marker genes.    Finished aligning 14 of 43 (32.56%) marker genes.    Finished aligning 15 of 43 (34.88%) marker genes.    Finished aligning 16 of 43 (37.21%) marker genes.    Finished aligning 17 of 43 (39.53%) marker genes.    Finished aligning 18 of 43 (41.86%) marker genes.    Finished aligning 19 of 43 (44.19%) marker genes.    Finished aligning 20 of 43 (46.51%) marker genes.    Finished aligning 21 of 43 (48.84%) marker genes.    Finished aligning 22 of 43 (51.16%) marker genes.    Finished aligning 23 of 43 (53.49%) marker genes.    Finished aligning 24 of 43 (55.81%) marker genes.    Finished aligning 25 of 43 (58.14%) marker genes.    Finished aligning 26 of 43 (60.47%) marker genes.    Finished aligning 27 of 43 (62.79%) marker genes.    Finished aligning 28 of 43 (65.12%) marker genes.    Finished aligning 29 of 43 (67.44%) marker genes.    Finished aligning 30 of 43 (69.77%) marker genes.    Finished aligning 31 of 43 (72.09%) marker genes.    Finished aligning 32 of 43 (74.42%) marker genes.    Finished aligning 33 of 43 (76.74%) marker genes.    Finished aligning 34 of 43 (79.07%) marker genes.    Finished aligning 35 of 43 (81.40%) marker genes.    Finished aligning 36 of 43 (83.72%) marker genes.    Finished aligning 37 of 43 (86.05%) marker genes.    Finished aligning 38 of 43 (88.37%) marker genes.    Finished aligning 39 of 43 (90.70%) marker genes.    Finished aligning 40 of 43 (93.02%) marker genes.    Finished aligning 41 of 43 (95.35%) marker genes.    Finished aligning 42 of 43 (97.67%) marker genes.    Finished aligning 43 of 43 (100.00%) marker genes.
+
+  Reading marker alignment files.
+  Concatenating alignments.
+  Placing 1 bins into the genome tree with pplacer (be patient).
+
+  { Current stage: 0:03:02.171 || Total: 0:03:02.171 }
+
+*******************************************************************************
+ [CheckM - lineage_set] Inferring lineage-specific marker sets.
+*******************************************************************************
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+
+  Determining marker sets for each genome bin.
+    Finished processing 1 of 1 (100.00%) bins (current: Refined_1).
+
+  Marker set written to: binsABC.checkm/lineage.ms
+
+  { Current stage: 0:00:00.680 || Total: 0:03:02.851 }
+
+*******************************************************************************
+ [CheckM - analyze] Identifying marker genes in bins.
+*******************************************************************************
+
+  Identifying marker genes in 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+  Saving HMM info to file.
+
+  { Current stage: 0:01:23.855 || Total: 0:04:26.707 }
+
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+  Aligning marker genes with multiple hits in a single bin:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  { Current stage: 0:00:00.618 || Total: 0:04:27.326 }
+
+  Calculating genome statistics for 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  { Current stage: 0:00:00.162 || Total: 0:04:27.488 }
+
+*******************************************************************************
+ [CheckM - qa] Tabulating genome statistics.
+*******************************************************************************
+
+  Calculating AAI between multi-copy marker genes.
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+
+
+  { Current stage: 0:00:00.758 || Total: 0:04:28.247 }
+
+*******************************************************************************
+ [CheckM - tree] Placing bins in reference genome tree.
+*******************************************************************************
+
+  Identifying marker genes in 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+  Saving HMM info to file.
+
+  Calculating genome statistics for 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  Extracting marker genes to align.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+  Extracting 43 HMMs with 16 threads:
+    Finished extracting 0 of 43 (0.00%) HMMs.    Finished extracting 1 of 43 (2.33%) HMMs.    Finished extracting 2 of 43 (4.65%) HMMs.    Finished extracting 3 of 43 (6.98%) HMMs.    Finished extracting 4 of 43 (9.30%) HMMs.    Finished extracting 5 of 43 (11.63%) HMMs.    Finished extracting 6 of 43 (13.95%) HMMs.    Finished extracting 7 of 43 (16.28%) HMMs.    Finished extracting 8 of 43 (18.60%) HMMs.    Finished extracting 9 of 43 (20.93%) HMMs.    Finished extracting 10 of 43 (23.26%) HMMs.    Finished extracting 11 of 43 (25.58%) HMMs.    Finished extracting 12 of 43 (27.91%) HMMs.    Finished extracting 13 of 43 (30.23%) HMMs.    Finished extracting 14 of 43 (32.56%) HMMs.    Finished extracting 15 of 43 (34.88%) HMMs.    Finished extracting 16 of 43 (37.21%) HMMs.    Finished extracting 17 of 43 (39.53%) HMMs.    Finished extracting 18 of 43 (41.86%) HMMs.    Finished extracting 19 of 43 (44.19%) HMMs.    Finished extracting 20 of 43 (46.51%) HMMs.    Finished extracting 21 of 43 (48.84%) HMMs.    Finished extracting 22 of 43 (51.16%) HMMs.    Finished extracting 23 of 43 (53.49%) HMMs.    Finished extracting 24 of 43 (55.81%) HMMs.    Finished extracting 25 of 43 (58.14%) HMMs.    Finished extracting 26 of 43 (60.47%) HMMs.    Finished extracting 27 of 43 (62.79%) HMMs.    Finished extracting 28 of 43 (65.12%) HMMs.    Finished extracting 29 of 43 (67.44%) HMMs.    Finished extracting 30 of 43 (69.77%) HMMs.    Finished extracting 31 of 43 (72.09%) HMMs.    Finished extracting 32 of 43 (74.42%) HMMs.    Finished extracting 33 of 43 (76.74%) HMMs.    Finished extracting 34 of 43 (79.07%) HMMs.    Finished extracting 35 of 43 (81.40%) HMMs.    Finished extracting 36 of 43 (83.72%) HMMs.    Finished extracting 37 of 43 (86.05%) HMMs.    Finished extracting 38 of 43 (88.37%) HMMs.    Finished extracting 39 of 43 (90.70%) HMMs.    Finished extracting 40 of 43 (93.02%) HMMs.    Finished extracting 41 of 43 (95.35%) HMMs.    Finished extracting 42 of 43 (97.67%) HMMs.    Finished extracting 43 of 43 (100.00%) HMMs.
+  Aligning 43 marker genes with 16 threads:
+    Finished aligning 0 of 43 (0.00%) marker genes.    Finished aligning 1 of 43 (2.33%) marker genes.    Finished aligning 2 of 43 (4.65%) marker genes.    Finished aligning 3 of 43 (6.98%) marker genes.    Finished aligning 4 of 43 (9.30%) marker genes.    Finished aligning 5 of 43 (11.63%) marker genes.    Finished aligning 6 of 43 (13.95%) marker genes.    Finished aligning 7 of 43 (16.28%) marker genes.    Finished aligning 8 of 43 (18.60%) marker genes.    Finished aligning 9 of 43 (20.93%) marker genes.    Finished aligning 10 of 43 (23.26%) marker genes.    Finished aligning 11 of 43 (25.58%) marker genes.    Finished aligning 12 of 43 (27.91%) marker genes.    Finished aligning 13 of 43 (30.23%) marker genes.    Finished aligning 14 of 43 (32.56%) marker genes.    Finished aligning 15 of 43 (34.88%) marker genes.    Finished aligning 16 of 43 (37.21%) marker genes.    Finished aligning 17 of 43 (39.53%) marker genes.    Finished aligning 18 of 43 (41.86%) marker genes.    Finished aligning 19 of 43 (44.19%) marker genes.    Finished aligning 20 of 43 (46.51%) marker genes.    Finished aligning 21 of 43 (48.84%) marker genes.    Finished aligning 22 of 43 (51.16%) marker genes.    Finished aligning 23 of 43 (53.49%) marker genes.    Finished aligning 24 of 43 (55.81%) marker genes.    Finished aligning 25 of 43 (58.14%) marker genes.    Finished aligning 26 of 43 (60.47%) marker genes.    Finished aligning 27 of 43 (62.79%) marker genes.    Finished aligning 28 of 43 (65.12%) marker genes.    Finished aligning 29 of 43 (67.44%) marker genes.    Finished aligning 30 of 43 (69.77%) marker genes.    Finished aligning 31 of 43 (72.09%) marker genes.    Finished aligning 32 of 43 (74.42%) marker genes.    Finished aligning 33 of 43 (76.74%) marker genes.    Finished aligning 34 of 43 (79.07%) marker genes.    Finished aligning 35 of 43 (81.40%) marker genes.    Finished aligning 36 of 43 (83.72%) marker genes.    Finished aligning 37 of 43 (86.05%) marker genes.    Finished aligning 38 of 43 (88.37%) marker genes.    Finished aligning 39 of 43 (90.70%) marker genes.    Finished aligning 40 of 43 (93.02%) marker genes.    Finished aligning 41 of 43 (95.35%) marker genes.    Finished aligning 42 of 43 (97.67%) marker genes.    Finished aligning 43 of 43 (100.00%) marker genes.
+
+  Reading marker alignment files.
+  Concatenating alignments.
+  Placing 1 bins into the genome tree with pplacer (be patient).
+
+  { Current stage: 0:03:00.074 || Total: 0:03:00.074 }
+
+*******************************************************************************
+ [CheckM - lineage_set] Inferring lineage-specific marker sets.
+*******************************************************************************
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+
+  Determining marker sets for each genome bin.
+    Finished processing 1 of 1 (100.00%) bins (current: Refined_1).
+
+  Marker set written to: binsAC.checkm/lineage.ms
+
+  { Current stage: 0:00:00.675 || Total: 0:03:00.749 }
+
+*******************************************************************************
+ [CheckM - analyze] Identifying marker genes in bins.
+*******************************************************************************
+
+  Identifying marker genes in 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+  Saving HMM info to file.
+
+  { Current stage: 0:01:24.337 || Total: 0:04:25.086 }
+
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+  Aligning marker genes with multiple hits in a single bin:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  { Current stage: 0:00:00.610 || Total: 0:04:25.697 }
+
+  Calculating genome statistics for 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  { Current stage: 0:00:00.172 || Total: 0:04:25.869 }
+
+*******************************************************************************
+ [CheckM - qa] Tabulating genome statistics.
+*******************************************************************************
+
+  Calculating AAI between multi-copy marker genes.
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+
+
+  { Current stage: 0:00:00.744 || Total: 0:04:26.614 }
+
+*******************************************************************************
+ [CheckM - tree] Placing bins in reference genome tree.
+*******************************************************************************
+
+  Identifying marker genes in 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+  Saving HMM info to file.
+
+  Calculating genome statistics for 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  Extracting marker genes to align.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+  Extracting 43 HMMs with 16 threads:
+    Finished extracting 0 of 43 (0.00%) HMMs.    Finished extracting 1 of 43 (2.33%) HMMs.    Finished extracting 2 of 43 (4.65%) HMMs.    Finished extracting 3 of 43 (6.98%) HMMs.    Finished extracting 4 of 43 (9.30%) HMMs.    Finished extracting 5 of 43 (11.63%) HMMs.    Finished extracting 6 of 43 (13.95%) HMMs.    Finished extracting 7 of 43 (16.28%) HMMs.    Finished extracting 8 of 43 (18.60%) HMMs.    Finished extracting 9 of 43 (20.93%) HMMs.    Finished extracting 10 of 43 (23.26%) HMMs.    Finished extracting 11 of 43 (25.58%) HMMs.    Finished extracting 12 of 43 (27.91%) HMMs.    Finished extracting 13 of 43 (30.23%) HMMs.    Finished extracting 14 of 43 (32.56%) HMMs.    Finished extracting 15 of 43 (34.88%) HMMs.    Finished extracting 16 of 43 (37.21%) HMMs.    Finished extracting 17 of 43 (39.53%) HMMs.    Finished extracting 18 of 43 (41.86%) HMMs.    Finished extracting 19 of 43 (44.19%) HMMs.    Finished extracting 20 of 43 (46.51%) HMMs.    Finished extracting 21 of 43 (48.84%) HMMs.    Finished extracting 22 of 43 (51.16%) HMMs.    Finished extracting 23 of 43 (53.49%) HMMs.    Finished extracting 24 of 43 (55.81%) HMMs.    Finished extracting 25 of 43 (58.14%) HMMs.    Finished extracting 26 of 43 (60.47%) HMMs.    Finished extracting 27 of 43 (62.79%) HMMs.    Finished extracting 28 of 43 (65.12%) HMMs.    Finished extracting 29 of 43 (67.44%) HMMs.    Finished extracting 30 of 43 (69.77%) HMMs.    Finished extracting 31 of 43 (72.09%) HMMs.    Finished extracting 32 of 43 (74.42%) HMMs.    Finished extracting 33 of 43 (76.74%) HMMs.    Finished extracting 34 of 43 (79.07%) HMMs.    Finished extracting 35 of 43 (81.40%) HMMs.    Finished extracting 36 of 43 (83.72%) HMMs.    Finished extracting 37 of 43 (86.05%) HMMs.    Finished extracting 38 of 43 (88.37%) HMMs.    Finished extracting 39 of 43 (90.70%) HMMs.    Finished extracting 40 of 43 (93.02%) HMMs.    Finished extracting 41 of 43 (95.35%) HMMs.    Finished extracting 42 of 43 (97.67%) HMMs.    Finished extracting 43 of 43 (100.00%) HMMs.
+  Aligning 43 marker genes with 16 threads:
+    Finished aligning 0 of 43 (0.00%) marker genes.    Finished aligning 1 of 43 (2.33%) marker genes.    Finished aligning 2 of 43 (4.65%) marker genes.    Finished aligning 3 of 43 (6.98%) marker genes.    Finished aligning 4 of 43 (9.30%) marker genes.    Finished aligning 5 of 43 (11.63%) marker genes.    Finished aligning 6 of 43 (13.95%) marker genes.    Finished aligning 7 of 43 (16.28%) marker genes.    Finished aligning 8 of 43 (18.60%) marker genes.    Finished aligning 9 of 43 (20.93%) marker genes.    Finished aligning 10 of 43 (23.26%) marker genes.    Finished aligning 11 of 43 (25.58%) marker genes.    Finished aligning 12 of 43 (27.91%) marker genes.    Finished aligning 13 of 43 (30.23%) marker genes.    Finished aligning 14 of 43 (32.56%) marker genes.    Finished aligning 15 of 43 (34.88%) marker genes.    Finished aligning 16 of 43 (37.21%) marker genes.    Finished aligning 17 of 43 (39.53%) marker genes.    Finished aligning 18 of 43 (41.86%) marker genes.    Finished aligning 19 of 43 (44.19%) marker genes.    Finished aligning 20 of 43 (46.51%) marker genes.    Finished aligning 21 of 43 (48.84%) marker genes.    Finished aligning 22 of 43 (51.16%) marker genes.    Finished aligning 23 of 43 (53.49%) marker genes.    Finished aligning 24 of 43 (55.81%) marker genes.    Finished aligning 25 of 43 (58.14%) marker genes.    Finished aligning 26 of 43 (60.47%) marker genes.    Finished aligning 27 of 43 (62.79%) marker genes.    Finished aligning 28 of 43 (65.12%) marker genes.    Finished aligning 29 of 43 (67.44%) marker genes.    Finished aligning 30 of 43 (69.77%) marker genes.    Finished aligning 31 of 43 (72.09%) marker genes.    Finished aligning 32 of 43 (74.42%) marker genes.    Finished aligning 33 of 43 (76.74%) marker genes.    Finished aligning 34 of 43 (79.07%) marker genes.    Finished aligning 35 of 43 (81.40%) marker genes.    Finished aligning 36 of 43 (83.72%) marker genes.    Finished aligning 37 of 43 (86.05%) marker genes.    Finished aligning 38 of 43 (88.37%) marker genes.    Finished aligning 39 of 43 (90.70%) marker genes.    Finished aligning 40 of 43 (93.02%) marker genes.    Finished aligning 41 of 43 (95.35%) marker genes.    Finished aligning 42 of 43 (97.67%) marker genes.    Finished aligning 43 of 43 (100.00%) marker genes.
+
+  Reading marker alignment files.
+  Concatenating alignments.
+  Placing 1 bins into the genome tree with pplacer (be patient).
+
+  { Current stage: 0:03:23.173 || Total: 0:03:23.173 }
+
+*******************************************************************************
+ [CheckM - lineage_set] Inferring lineage-specific marker sets.
+*******************************************************************************
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+
+  Determining marker sets for each genome bin.
+    Finished processing 1 of 1 (100.00%) bins (current: bin.0).
+
+  Marker set written to: binsB.checkm/lineage.ms
+
+  { Current stage: 0:00:00.678 || Total: 0:03:23.852 }
+
+*******************************************************************************
+ [CheckM - analyze] Identifying marker genes in bins.
+*******************************************************************************
+
+  Identifying marker genes in 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+  Saving HMM info to file.
+
+  { Current stage: 0:01:23.543 || Total: 0:04:47.395 }
+
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+  Aligning marker genes with multiple hits in a single bin:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  { Current stage: 0:00:00.620 || Total: 0:04:48.016 }
+
+  Calculating genome statistics for 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  { Current stage: 0:00:00.166 || Total: 0:04:48.183 }
+
+*******************************************************************************
+ [CheckM - qa] Tabulating genome statistics.
+*******************************************************************************
+
+  Calculating AAI between multi-copy marker genes.
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+
+
+  { Current stage: 0:00:00.767 || Total: 0:04:48.951 }
+
+*******************************************************************************
+ [CheckM - tree] Placing bins in reference genome tree.
+*******************************************************************************
+
+  Identifying marker genes in 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+  Saving HMM info to file.
+
+  Calculating genome statistics for 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  Extracting marker genes to align.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+  Extracting 43 HMMs with 16 threads:
+    Finished extracting 0 of 43 (0.00%) HMMs.    Finished extracting 1 of 43 (2.33%) HMMs.    Finished extracting 2 of 43 (4.65%) HMMs.    Finished extracting 3 of 43 (6.98%) HMMs.    Finished extracting 4 of 43 (9.30%) HMMs.    Finished extracting 5 of 43 (11.63%) HMMs.    Finished extracting 6 of 43 (13.95%) HMMs.    Finished extracting 7 of 43 (16.28%) HMMs.    Finished extracting 8 of 43 (18.60%) HMMs.    Finished extracting 9 of 43 (20.93%) HMMs.    Finished extracting 10 of 43 (23.26%) HMMs.    Finished extracting 11 of 43 (25.58%) HMMs.    Finished extracting 12 of 43 (27.91%) HMMs.    Finished extracting 13 of 43 (30.23%) HMMs.    Finished extracting 14 of 43 (32.56%) HMMs.    Finished extracting 15 of 43 (34.88%) HMMs.    Finished extracting 16 of 43 (37.21%) HMMs.    Finished extracting 17 of 43 (39.53%) HMMs.    Finished extracting 18 of 43 (41.86%) HMMs.    Finished extracting 19 of 43 (44.19%) HMMs.    Finished extracting 20 of 43 (46.51%) HMMs.    Finished extracting 21 of 43 (48.84%) HMMs.    Finished extracting 22 of 43 (51.16%) HMMs.    Finished extracting 23 of 43 (53.49%) HMMs.    Finished extracting 24 of 43 (55.81%) HMMs.    Finished extracting 25 of 43 (58.14%) HMMs.    Finished extracting 26 of 43 (60.47%) HMMs.    Finished extracting 27 of 43 (62.79%) HMMs.    Finished extracting 28 of 43 (65.12%) HMMs.    Finished extracting 29 of 43 (67.44%) HMMs.    Finished extracting 30 of 43 (69.77%) HMMs.    Finished extracting 31 of 43 (72.09%) HMMs.    Finished extracting 32 of 43 (74.42%) HMMs.    Finished extracting 33 of 43 (76.74%) HMMs.    Finished extracting 34 of 43 (79.07%) HMMs.    Finished extracting 35 of 43 (81.40%) HMMs.    Finished extracting 36 of 43 (83.72%) HMMs.    Finished extracting 37 of 43 (86.05%) HMMs.    Finished extracting 38 of 43 (88.37%) HMMs.    Finished extracting 39 of 43 (90.70%) HMMs.    Finished extracting 40 of 43 (93.02%) HMMs.    Finished extracting 41 of 43 (95.35%) HMMs.    Finished extracting 42 of 43 (97.67%) HMMs.    Finished extracting 43 of 43 (100.00%) HMMs.
+  Aligning 43 marker genes with 16 threads:
+    Finished aligning 0 of 43 (0.00%) marker genes.    Finished aligning 1 of 43 (2.33%) marker genes.    Finished aligning 2 of 43 (4.65%) marker genes.    Finished aligning 3 of 43 (6.98%) marker genes.    Finished aligning 4 of 43 (9.30%) marker genes.    Finished aligning 5 of 43 (11.63%) marker genes.    Finished aligning 6 of 43 (13.95%) marker genes.    Finished aligning 7 of 43 (16.28%) marker genes.    Finished aligning 8 of 43 (18.60%) marker genes.    Finished aligning 9 of 43 (20.93%) marker genes.    Finished aligning 10 of 43 (23.26%) marker genes.    Finished aligning 11 of 43 (25.58%) marker genes.    Finished aligning 12 of 43 (27.91%) marker genes.    Finished aligning 13 of 43 (30.23%) marker genes.    Finished aligning 14 of 43 (32.56%) marker genes.    Finished aligning 15 of 43 (34.88%) marker genes.    Finished aligning 16 of 43 (37.21%) marker genes.    Finished aligning 17 of 43 (39.53%) marker genes.    Finished aligning 18 of 43 (41.86%) marker genes.    Finished aligning 19 of 43 (44.19%) marker genes.    Finished aligning 20 of 43 (46.51%) marker genes.    Finished aligning 21 of 43 (48.84%) marker genes.    Finished aligning 22 of 43 (51.16%) marker genes.    Finished aligning 23 of 43 (53.49%) marker genes.    Finished aligning 24 of 43 (55.81%) marker genes.    Finished aligning 25 of 43 (58.14%) marker genes.    Finished aligning 26 of 43 (60.47%) marker genes.    Finished aligning 27 of 43 (62.79%) marker genes.    Finished aligning 28 of 43 (65.12%) marker genes.    Finished aligning 29 of 43 (67.44%) marker genes.    Finished aligning 30 of 43 (69.77%) marker genes.    Finished aligning 31 of 43 (72.09%) marker genes.    Finished aligning 32 of 43 (74.42%) marker genes.    Finished aligning 33 of 43 (76.74%) marker genes.    Finished aligning 34 of 43 (79.07%) marker genes.    Finished aligning 35 of 43 (81.40%) marker genes.    Finished aligning 36 of 43 (83.72%) marker genes.    Finished aligning 37 of 43 (86.05%) marker genes.    Finished aligning 38 of 43 (88.37%) marker genes.    Finished aligning 39 of 43 (90.70%) marker genes.    Finished aligning 40 of 43 (93.02%) marker genes.    Finished aligning 41 of 43 (95.35%) marker genes.    Finished aligning 42 of 43 (97.67%) marker genes.    Finished aligning 43 of 43 (100.00%) marker genes.
+
+  Reading marker alignment files.
+  Concatenating alignments.
+  Placing 1 bins into the genome tree with pplacer (be patient).
+
+  { Current stage: 0:03:00.055 || Total: 0:03:00.055 }
+
+*******************************************************************************
+ [CheckM - lineage_set] Inferring lineage-specific marker sets.
+*******************************************************************************
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+
+  Determining marker sets for each genome bin.
+    Finished processing 1 of 1 (100.00%) bins (current: Refined_1).
+
+  Marker set written to: binsBC.checkm/lineage.ms
+
+  { Current stage: 0:00:00.660 || Total: 0:03:00.715 }
+
+*******************************************************************************
+ [CheckM - analyze] Identifying marker genes in bins.
+*******************************************************************************
+
+  Identifying marker genes in 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+  Saving HMM info to file.
+
+  { Current stage: 0:01:23.089 || Total: 0:04:23.805 }
+
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+  Aligning marker genes with multiple hits in a single bin:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  { Current stage: 0:00:00.609 || Total: 0:04:24.414 }
+
+  Calculating genome statistics for 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  { Current stage: 0:00:00.159 || Total: 0:04:24.573 }
+
+*******************************************************************************
+ [CheckM - qa] Tabulating genome statistics.
+*******************************************************************************
+
+  Calculating AAI between multi-copy marker genes.
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+
+
+  { Current stage: 0:00:00.756 || Total: 0:04:25.329 }
+
+*******************************************************************************
+ [CheckM - tree] Placing bins in reference genome tree.
+*******************************************************************************
+
+  Identifying marker genes in 3 bins with 16 threads:
+    Finished processing 0 of 3 (0.00%) bins.    Finished processing 1 of 3 (33.33%) bins.    Finished processing 2 of 3 (66.67%) bins.    Finished processing 3 of 3 (100.00%) bins.
+  Saving HMM info to file.
+
+  Calculating genome statistics for 3 bins with 16 threads:
+    Finished processing 0 of 3 (0.00%) bins.    Finished processing 1 of 3 (33.33%) bins.    Finished processing 2 of 3 (66.67%) bins.    Finished processing 3 of 3 (100.00%) bins.
+
+  Extracting marker genes to align.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 3 (33.33%) bins.    Finished parsing hits for 2 of 3 (66.67%) bins.    Finished parsing hits for 3 of 3 (100.00%) bins.
+  Extracting 43 HMMs with 16 threads:
+    Finished extracting 0 of 43 (0.00%) HMMs.    Finished extracting 1 of 43 (2.33%) HMMs.    Finished extracting 2 of 43 (4.65%) HMMs.    Finished extracting 3 of 43 (6.98%) HMMs.    Finished extracting 4 of 43 (9.30%) HMMs.    Finished extracting 5 of 43 (11.63%) HMMs.    Finished extracting 6 of 43 (13.95%) HMMs.    Finished extracting 7 of 43 (16.28%) HMMs.    Finished extracting 8 of 43 (18.60%) HMMs.    Finished extracting 9 of 43 (20.93%) HMMs.    Finished extracting 10 of 43 (23.26%) HMMs.    Finished extracting 11 of 43 (25.58%) HMMs.    Finished extracting 12 of 43 (27.91%) HMMs.    Finished extracting 13 of 43 (30.23%) HMMs.    Finished extracting 14 of 43 (32.56%) HMMs.    Finished extracting 15 of 43 (34.88%) HMMs.    Finished extracting 16 of 43 (37.21%) HMMs.    Finished extracting 17 of 43 (39.53%) HMMs.    Finished extracting 18 of 43 (41.86%) HMMs.    Finished extracting 19 of 43 (44.19%) HMMs.    Finished extracting 20 of 43 (46.51%) HMMs.    Finished extracting 21 of 43 (48.84%) HMMs.    Finished extracting 22 of 43 (51.16%) HMMs.    Finished extracting 23 of 43 (53.49%) HMMs.    Finished extracting 24 of 43 (55.81%) HMMs.    Finished extracting 25 of 43 (58.14%) HMMs.    Finished extracting 26 of 43 (60.47%) HMMs.    Finished extracting 27 of 43 (62.79%) HMMs.    Finished extracting 28 of 43 (65.12%) HMMs.    Finished extracting 29 of 43 (67.44%) HMMs.    Finished extracting 30 of 43 (69.77%) HMMs.    Finished extracting 31 of 43 (72.09%) HMMs.    Finished extracting 32 of 43 (74.42%) HMMs.    Finished extracting 33 of 43 (76.74%) HMMs.    Finished extracting 34 of 43 (79.07%) HMMs.    Finished extracting 35 of 43 (81.40%) HMMs.    Finished extracting 36 of 43 (83.72%) HMMs.    Finished extracting 37 of 43 (86.05%) HMMs.    Finished extracting 38 of 43 (88.37%) HMMs.    Finished extracting 39 of 43 (90.70%) HMMs.    Finished extracting 40 of 43 (93.02%) HMMs.    Finished extracting 41 of 43 (95.35%) HMMs.    Finished extracting 42 of 43 (97.67%) HMMs.    Finished extracting 43 of 43 (100.00%) HMMs.
+  Aligning 43 marker genes with 16 threads:
+    Finished aligning 0 of 43 (0.00%) marker genes.    Finished aligning 1 of 43 (2.33%) marker genes.    Finished aligning 2 of 43 (4.65%) marker genes.    Finished aligning 3 of 43 (6.98%) marker genes.    Finished aligning 4 of 43 (9.30%) marker genes.    Finished aligning 5 of 43 (11.63%) marker genes.    Finished aligning 6 of 43 (13.95%) marker genes.    Finished aligning 7 of 43 (16.28%) marker genes.    Finished aligning 8 of 43 (18.60%) marker genes.    Finished aligning 9 of 43 (20.93%) marker genes.    Finished aligning 10 of 43 (23.26%) marker genes.    Finished aligning 11 of 43 (25.58%) marker genes.    Finished aligning 12 of 43 (27.91%) marker genes.    Finished aligning 13 of 43 (30.23%) marker genes.    Finished aligning 14 of 43 (32.56%) marker genes.    Finished aligning 15 of 43 (34.88%) marker genes.    Finished aligning 16 of 43 (37.21%) marker genes.    Finished aligning 17 of 43 (39.53%) marker genes.    Finished aligning 18 of 43 (41.86%) marker genes.    Finished aligning 19 of 43 (44.19%) marker genes.    Finished aligning 20 of 43 (46.51%) marker genes.    Finished aligning 21 of 43 (48.84%) marker genes.    Finished aligning 22 of 43 (51.16%) marker genes.    Finished aligning 23 of 43 (53.49%) marker genes.    Finished aligning 24 of 43 (55.81%) marker genes.    Finished aligning 25 of 43 (58.14%) marker genes.    Finished aligning 26 of 43 (60.47%) marker genes.    Finished aligning 27 of 43 (62.79%) marker genes.    Finished aligning 28 of 43 (65.12%) marker genes.    Finished aligning 29 of 43 (67.44%) marker genes.    Finished aligning 30 of 43 (69.77%) marker genes.    Finished aligning 31 of 43 (72.09%) marker genes.    Finished aligning 32 of 43 (74.42%) marker genes.    Finished aligning 33 of 43 (76.74%) marker genes.    Finished aligning 34 of 43 (79.07%) marker genes.    Finished aligning 35 of 43 (81.40%) marker genes.    Finished aligning 36 of 43 (83.72%) marker genes.    Finished aligning 37 of 43 (86.05%) marker genes.    Finished aligning 38 of 43 (88.37%) marker genes.    Finished aligning 39 of 43 (90.70%) marker genes.    Finished aligning 40 of 43 (93.02%) marker genes.    Finished aligning 41 of 43 (95.35%) marker genes.    Finished aligning 42 of 43 (97.67%) marker genes.    Finished aligning 43 of 43 (100.00%) marker genes.
+
+  Reading marker alignment files.
+  Concatenating alignments.
+  Placing 3 bins into the genome tree with pplacer (be patient).
+
+  { Current stage: 0:03:24.383 || Total: 0:03:24.383 }
+
+*******************************************************************************
+ [CheckM - lineage_set] Inferring lineage-specific marker sets.
+*******************************************************************************
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 3 (33.33%) bins.    Finished parsing hits for 2 of 3 (66.67%) bins.    Finished parsing hits for 3 of 3 (100.00%) bins.
+
+  Determining marker sets for each genome bin.
+    Finished processing 1 of 3 (33.33%) bins (current: bin.9).                                                                  Finished processing 2 of 3 (66.67%) bins (current: unbinned).                                                                     Finished processing 3 of 3 (100.00%) bins (current: bin.11).
+
+  Marker set written to: binsC.checkm/lineage.ms
+
+  { Current stage: 0:00:00.832 || Total: 0:03:25.215 }
+
+*******************************************************************************
+ [CheckM - analyze] Identifying marker genes in bins.
+*******************************************************************************
+
+  Identifying marker genes in 3 bins with 16 threads:
+    Finished processing 0 of 3 (0.00%) bins.    Finished processing 1 of 3 (33.33%) bins.    Finished processing 2 of 3 (66.67%) bins.    Finished processing 3 of 3 (100.00%) bins.
+  Saving HMM info to file.
+
+  { Current stage: 0:01:22.768 || Total: 0:04:47.984 }
+
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 3 (33.33%) bins.    Finished parsing hits for 2 of 3 (66.67%) bins.    Finished parsing hits for 3 of 3 (100.00%) bins.
+  Aligning marker genes with multiple hits in a single bin:
+    Finished processing 0 of 3 (0.00%) bins.    Finished processing 1 of 3 (33.33%) bins.    Finished processing 2 of 3 (66.67%) bins.    Finished processing 3 of 3 (100.00%) bins.
+
+  { Current stage: 0:00:00.620 || Total: 0:04:48.605 }
+
+  Calculating genome statistics for 3 bins with 16 threads:
+    Finished processing 0 of 3 (0.00%) bins.    Finished processing 1 of 3 (33.33%) bins.    Finished processing 2 of 3 (66.67%) bins.    Finished processing 3 of 3 (100.00%) bins.
+
+  { Current stage: 0:00:00.168 || Total: 0:04:48.773 }
+
+*******************************************************************************
+ [CheckM - qa] Tabulating genome statistics.
+*******************************************************************************
+
+  Calculating AAI between multi-copy marker genes.
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 3 (33.33%) bins.    Finished parsing hits for 2 of 3 (66.67%) bins.    Finished parsing hits for 3 of 3 (100.00%) bins.
+
+
+  { Current stage: 0:00:00.914 || Total: 0:04:49.687 }
+rm: cannot remove 'binsM': No such file or directory
+rm: cannot remove 'binsM.stats': No such file or directory
+
+*******************************************************************************
+ [CheckM - tree] Placing bins in reference genome tree.
+*******************************************************************************
+
+  Identifying marker genes in 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+  Saving HMM info to file.
+
+  Calculating genome statistics for 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  Extracting marker genes to align.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+  Extracting 43 HMMs with 16 threads:
+    Finished extracting 0 of 43 (0.00%) HMMs.    Finished extracting 1 of 43 (2.33%) HMMs.    Finished extracting 2 of 43 (4.65%) HMMs.    Finished extracting 3 of 43 (6.98%) HMMs.    Finished extracting 4 of 43 (9.30%) HMMs.    Finished extracting 5 of 43 (11.63%) HMMs.    Finished extracting 6 of 43 (13.95%) HMMs.    Finished extracting 7 of 43 (16.28%) HMMs.    Finished extracting 8 of 43 (18.60%) HMMs.    Finished extracting 9 of 43 (20.93%) HMMs.    Finished extracting 10 of 43 (23.26%) HMMs.    Finished extracting 11 of 43 (25.58%) HMMs.    Finished extracting 12 of 43 (27.91%) HMMs.    Finished extracting 13 of 43 (30.23%) HMMs.    Finished extracting 14 of 43 (32.56%) HMMs.    Finished extracting 15 of 43 (34.88%) HMMs.    Finished extracting 16 of 43 (37.21%) HMMs.    Finished extracting 17 of 43 (39.53%) HMMs.    Finished extracting 18 of 43 (41.86%) HMMs.    Finished extracting 19 of 43 (44.19%) HMMs.    Finished extracting 20 of 43 (46.51%) HMMs.    Finished extracting 21 of 43 (48.84%) HMMs.    Finished extracting 22 of 43 (51.16%) HMMs.    Finished extracting 23 of 43 (53.49%) HMMs.    Finished extracting 24 of 43 (55.81%) HMMs.    Finished extracting 25 of 43 (58.14%) HMMs.    Finished extracting 26 of 43 (60.47%) HMMs.    Finished extracting 27 of 43 (62.79%) HMMs.    Finished extracting 28 of 43 (65.12%) HMMs.    Finished extracting 29 of 43 (67.44%) HMMs.    Finished extracting 30 of 43 (69.77%) HMMs.    Finished extracting 31 of 43 (72.09%) HMMs.    Finished extracting 32 of 43 (74.42%) HMMs.    Finished extracting 33 of 43 (76.74%) HMMs.    Finished extracting 34 of 43 (79.07%) HMMs.    Finished extracting 35 of 43 (81.40%) HMMs.    Finished extracting 36 of 43 (83.72%) HMMs.    Finished extracting 37 of 43 (86.05%) HMMs.    Finished extracting 38 of 43 (88.37%) HMMs.    Finished extracting 39 of 43 (90.70%) HMMs.    Finished extracting 40 of 43 (93.02%) HMMs.    Finished extracting 41 of 43 (95.35%) HMMs.    Finished extracting 42 of 43 (97.67%) HMMs.    Finished extracting 43 of 43 (100.00%) HMMs.
+  Aligning 43 marker genes with 16 threads:
+    Finished aligning 0 of 43 (0.00%) marker genes.    Finished aligning 1 of 43 (2.33%) marker genes.    Finished aligning 2 of 43 (4.65%) marker genes.    Finished aligning 3 of 43 (6.98%) marker genes.    Finished aligning 4 of 43 (9.30%) marker genes.    Finished aligning 5 of 43 (11.63%) marker genes.    Finished aligning 6 of 43 (13.95%) marker genes.    Finished aligning 7 of 43 (16.28%) marker genes.    Finished aligning 8 of 43 (18.60%) marker genes.    Finished aligning 9 of 43 (20.93%) marker genes.    Finished aligning 10 of 43 (23.26%) marker genes.    Finished aligning 11 of 43 (25.58%) marker genes.    Finished aligning 12 of 43 (27.91%) marker genes.    Finished aligning 13 of 43 (30.23%) marker genes.    Finished aligning 14 of 43 (32.56%) marker genes.    Finished aligning 15 of 43 (34.88%) marker genes.    Finished aligning 16 of 43 (37.21%) marker genes.    Finished aligning 17 of 43 (39.53%) marker genes.    Finished aligning 18 of 43 (41.86%) marker genes.    Finished aligning 19 of 43 (44.19%) marker genes.    Finished aligning 20 of 43 (46.51%) marker genes.    Finished aligning 21 of 43 (48.84%) marker genes.    Finished aligning 22 of 43 (51.16%) marker genes.    Finished aligning 23 of 43 (53.49%) marker genes.    Finished aligning 24 of 43 (55.81%) marker genes.    Finished aligning 25 of 43 (58.14%) marker genes.    Finished aligning 26 of 43 (60.47%) marker genes.    Finished aligning 27 of 43 (62.79%) marker genes.    Finished aligning 28 of 43 (65.12%) marker genes.    Finished aligning 29 of 43 (67.44%) marker genes.    Finished aligning 30 of 43 (69.77%) marker genes.    Finished aligning 31 of 43 (72.09%) marker genes.    Finished aligning 32 of 43 (74.42%) marker genes.    Finished aligning 33 of 43 (76.74%) marker genes.    Finished aligning 34 of 43 (79.07%) marker genes.    Finished aligning 35 of 43 (81.40%) marker genes.    Finished aligning 36 of 43 (83.72%) marker genes.    Finished aligning 37 of 43 (86.05%) marker genes.    Finished aligning 38 of 43 (88.37%) marker genes.    Finished aligning 39 of 43 (90.70%) marker genes.    Finished aligning 40 of 43 (93.02%) marker genes.    Finished aligning 41 of 43 (95.35%) marker genes.    Finished aligning 42 of 43 (97.67%) marker genes.    Finished aligning 43 of 43 (100.00%) marker genes.
+
+  Reading marker alignment files.
+  Concatenating alignments.
+  Placing 1 bins into the genome tree with pplacer (be patient).
+
+  { Current stage: 0:03:23.135 || Total: 0:03:23.135 }
+
+*******************************************************************************
+ [CheckM - lineage_set] Inferring lineage-specific marker sets.
+*******************************************************************************
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+
+  Determining marker sets for each genome bin.
+    Finished processing 1 of 1 (100.00%) bins (current: bin.1).
+
+  Marker set written to: binsO.checkm/lineage.ms
+
+  { Current stage: 0:00:00.638 || Total: 0:03:23.773 }
+
+*******************************************************************************
+ [CheckM - analyze] Identifying marker genes in bins.
+*******************************************************************************
+
+  Identifying marker genes in 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+  Saving HMM info to file.
+
+  { Current stage: 0:01:25.210 || Total: 0:04:48.984 }
+
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+  Aligning marker genes with multiple hits in a single bin:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  { Current stage: 0:00:00.622 || Total: 0:04:49.606 }
+
+  Calculating genome statistics for 1 bins with 16 threads:
+    Finished processing 0 of 1 (0.00%) bins.    Finished processing 1 of 1 (100.00%) bins.
+
+  { Current stage: 0:00:00.171 || Total: 0:04:49.778 }
+
+*******************************************************************************
+ [CheckM - qa] Tabulating genome statistics.
+*******************************************************************************
+
+  Calculating AAI between multi-copy marker genes.
+
+  Reading HMM info from file.
+  Parsing HMM hits to marker genes:
+    Finished parsing hits for 1 of 1 (100.00%) bins.
+
+
+  { Current stage: 0:00:00.762 || Total: 0:04:50.541 }
+mv: cannot stat 'binning_results.eps': No such file or directory
+mv: cannot stat 'binning_results.eps': No such file or directory
+
+real	38m41.948s
+user	45m24.258s
+sys	3m8.220s

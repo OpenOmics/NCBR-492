@@ -1,0 +1,51 @@
+[+] Loading samtools 1.21  ... 
+[+] Loading bbtools  39.06 
+java -da -Xmx43520m -Xms43520m -cp /usr/local/apps/bbtools/39.06/bbmap_src/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 -da -Xmx43520m threads=16 path=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs nodisk ref=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.fa in=/data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF6.trimmed.R1.fastq in2=/data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF6.trimmed.R2.fastq out=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.coverage.mapped.sam statsfile=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.coverage.scafstats covstats=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.coverage.covstat rpkm=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.coverage.rpkm refstats=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.refstats outm=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.mapped.fq outu=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.unmapped.fq
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, -da, -Xmx43520m, threads=16, path=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs, nodisk, ref=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.fa, in=/data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF6.trimmed.R1.fastq, in2=/data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF6.trimmed.R2.fastq, out=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.coverage.mapped.sam, statsfile=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.coverage.scafstats, covstats=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.coverage.covstat, rpkm=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.coverage.rpkm, refstats=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.refstats, outm=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.mapped.fq, outu=/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.unmapped.fq]
+Version 39.06
+
+Reference set statistics will be written to /data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.refstats
+Retaining first best site only for ambiguous mappings.
+Executing dna.FastaToChromArrays2 [/data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.fa, 1, writeinthread=false, genscaffoldinfo=true, retain, waitforwriting=false, gz=true, maxlen=536670912, writechroms=false, minscaf=1, midpad=300, startpad=8000, stoppad=8000, nodisk=true]
+
+Set genScaffoldInfo=true
+Set genome to 1
+
+Loaded Reference:	0.003 seconds.
+Loading index for chunk 1-1, build 1
+Indexing threads started for block 0-1
+Indexing threads finished for block 0-1
+Generated Index:	0.520 seconds.
+Analyzed Index:   	2.569 seconds.
+Started output stream:	0.042 seconds.
+Started output stream:	0.003 seconds.
+Started output stream:	0.002 seconds.
+Cleared Memory:    	0.456 seconds.
+Processing reads in paired-ended mode.
+Started read stream.
+Started 16 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+
+Reads:                               	61896294
+Mapped reads:                        	59773776
+Mapped bases:                        	9022892449
+Ref scaffolds:                       	20
+Ref bases:                           	3467143
+
+Percent mapped:                      	96.571
+Percent proper pairs:                	95.847
+Average coverage:                    	2602.400
+Average coverage with deletions:     	2591.445
+Standard deviation:                    	516.870
+Percent scaffolds with any coverage: 	100.00
+Percent of reference bases covered:  	99.20
+
+Total time:     	668.209 seconds.

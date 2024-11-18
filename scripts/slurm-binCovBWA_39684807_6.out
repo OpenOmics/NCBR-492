@@ -1,0 +1,5 @@
+Input MAG is /data/NCBR/projects/NCBR-492/data/manual_analysis/bin_refinement/SF2/metawrap_70_5_bins/bin.1.fa -> /data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF2_metawrap.bin.1.fa
+Input trimmed R1 is /data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF2.trimmed.R1.fastq
+Input trimmed R2 is /data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF2.trimmed.R2.fastq
+Output saved in /data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs
+sample = SF2, total_reads = 40881246, mapped_reads = 36830734, mapped_fraction = 0

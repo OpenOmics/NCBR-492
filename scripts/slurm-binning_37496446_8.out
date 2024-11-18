@@ -1,0 +1,304 @@
+Assembly file is /data/NCBR/projects/NCBR-492/data/manual_analysis/metaspades/SF4/scaffolds.fasta
+Trimmed reads file are /data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF4.trimmed.R1.fastq /data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF4.trimmed.R2.fastq
+Trimmed reads link files are /data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF4.trimmed_1.fastq /data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF4.trimmed_2.fastq
+Output saved in /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4
+metawrap binning --metabat2 --maxbin2 --concoct -m 300 -t 16 -a /data/NCBR/projects/NCBR-492/data/manual_analysis/metaspades/SF4/scaffolds.fasta -o /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4 /data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF4.trimmed_1.fastq /data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF4.trimmed_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4 already exists.
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----               /data/NCBR/projects/NCBR-492/data/manual_analysis/metaspades/SF4/scaffolds.fasta               -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----           Aligning /data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF4.trimmed_1.fastq and           -----
+-----             /data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF4.trimmed_2.fastq back to              -----
+-----                                                   assembly                                                   -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                    Sorting the SF4.trimmed alignment file                                    -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                               RUNNING METABAT2                                               #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          making contig depth file...                                         -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                       Starting binning with metaBAT2...                                      -----
+------------------------------------------------------------------------------------------------------------------------
+
+MetaBAT 2 (v2.12.1) using minContig 1500, minCV 1.0, minCVSum 1.0, maxP 95%, minS 60, and maxEdges 200. 
+5 bins (5005358 bases in total) formed.
+
+------------------------------------------------------------------------------------------------------------------------
+-----                               metaBAT2 finished successfully, and found 6 bins!                              -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                                RUNNING MAXBIN2                                               #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          making contig depth file...                                         -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                    split master contig depth file into individual files for maxbin2 input                    -----
+------------------------------------------------------------------------------------------------------------------------
+
+processing SF4.trimmed.bam depth file...
+MaxBin 2.2.6
+No Contig file. Please specify contig file by -contig
+MaxBin - a metagenomics binning software.
+Usage:
+  run_MaxBin.pl
+    -contig (contig file)
+    -out (output file)
+
+   (Input reads and abundance information)
+    [-reads (reads file) -reads2 (readsfile) -reads3 (readsfile) -reads4 ... ]
+    [-abund (abundance file) -abund2 (abundfile) -abund3 (abundfile) -abund4 ... ]
+
+   (You can also input lists consisting of reads and abundance files)
+    [-reads_list (list of reads files)]
+    [-abund_list (list of abundance files)]
+
+   (Other parameters)
+    [-min_contig_length (minimum contig length. Default 1000)]
+    [-max_iteration (maximum Expectation-Maximization algorithm iteration number. Default 50)]
+    [-thread (thread num; default 1)]
+    [-prob_threshold (probability threshold for EM final classification. Default 0.9)]
+    [-plotmarker]
+    [-markerset (marker gene sets, 107 (default) or 40.  See README for more information.)]
+
+  (for debug purpose)
+    [-version] [-v] (print version number)
+    [-verbose]
+    [-preserve_intermediate]
+
+  Please specify either -reads or -abund information.
+  You can input multiple reads and/or abundance files at the same time.
+  Please read README file for more details.
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                       Starting binning with MaxBin2...                                       -----
+------------------------------------------------------------------------------------------------------------------------
+
+MaxBin 2.2.6
+Input contig: /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/assembly.fa
+Thread: 16
+Min contig length: 1000
+out header: /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/maxbin2_out/bin
+Located abundance file [/data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/mb2_SF4.trimmed.txt]
+Searching against 107 marker genes to find starting seed contigs for [/data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/assembly.fa]...
+Running FragGeneScan....
+Running HMMER hmmsearch....
+Try harder to dig out marker genes from contigs.
+Done data collection. Running MaxBin...
+Command: /gpfs/gsfs11/users/NCBR/apps/genome-assembly/conda/envs/metawrap-env/opt/MaxBin-2.2.6/src/MaxBin -fasta /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/maxbin2_out/bin.contig.tmp  -abund /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/maxbin2_out/bin.contig.tmp.abund1 -seed /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/maxbin2_out/bin.seed -out /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/maxbin2_out/bin -min_contig_length 1000 -thread 16
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	NODE_6_length_206829_cov_2070.617220 [3188.760000]
+	NODE_59_length_15272_cov_913.817507 [1380.140000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 2 (2.38%)
+Elapsed time:  0 days 00:00:00
+
+bin.001.marker.fasta
+bin.002.marker.fasta
+Deleting intermediate files.
+
+
+========== Job finished ==========
+Yielded 2 bins for contig (scaffold) file /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/assembly.fa
+
+Here are the output files for this run.
+Please refer to the README file for further details.
+
+Summary file: /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/maxbin2_out/bin.summary
+Marker counts: /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/maxbin2_out/bin.marker
+Marker genes for each bin: /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/maxbin2_out/bin.marker_of_each_gene.tar.gz
+Bin files: /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/maxbin2_out/bin.001.fasta - /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/maxbin2_out/bin.002.fasta
+Unbinned sequences: /data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/maxbin2_out/bin.noclass
+
+
+========== Elapsed Time ==========
+0 hours 0 minutes and 4 seconds.
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                               MaxBin2 finished successfully, and found 2 bins!                               -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                                RUNNING CONCOCT                                               #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                       indexing .bam alignment files...                                       -----
+------------------------------------------------------------------------------------------------------------------------
+
+/data/NCBR/projects/NCBR-492/data/manual_analysis/binning/SF4/work_files/SF4.trimmed.bam
+
+------------------------------------------------------------------------------------------------------------------------
+-----                             cutting up contigs into 10kb fragments for CONCOCT...                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                    estimating contig fragment coverage...                                    -----
+------------------------------------------------------------------------------------------------------------------------
+
+usage: concoct [-h] [--coverage_file COVERAGE_FILE]
+               [--composition_file COMPOSITION_FILE] [-c CLUSTERS]
+               [-k KMER_LENGTH] [-t THREADS] [-l LENGTH_THRESHOLD]
+               [-r READ_LENGTH] [--total_percentage_pca TOTAL_PERCENTAGE_PCA]
+               [-b BASENAME] [-s SEED] [-i ITERATIONS] [-e EPSILON]
+               [--no_cov_normalization] [--no_total_coverage]
+               [--no_original_data] [-o] [-d] [-v]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --coverage_file COVERAGE_FILE
+                        specify the coverage file, containing a table where
+                        each row correspond to a contig, and each column
+                        correspond to a sample. The values are the average
+                        coverage for this contig in that sample. All values
+                        are separated with tabs.
+  --composition_file COMPOSITION_FILE
+                        specify the composition file, containing sequences in
+                        fasta format. It is named the composition file since
+                        it is used to calculate the kmer composition (the
+                        genomic signature) of each contig.
+  -c CLUSTERS, --clusters CLUSTERS
+                        specify maximal number of clusters for VGMM, default
+                        400.
+  -k KMER_LENGTH, --kmer_length KMER_LENGTH
+                        specify kmer length, default 4.
+  -t THREADS, --threads THREADS
+                        Number of threads to use
+  -l LENGTH_THRESHOLD, --length_threshold LENGTH_THRESHOLD
+                        specify the sequence length threshold, contigs shorter
+                        than this value will not be included. Defaults to
+                        1000.
+  -r READ_LENGTH, --read_length READ_LENGTH
+                        specify read length for coverage, default 100
+  --total_percentage_pca TOTAL_PERCENTAGE_PCA
+                        The percentage of variance explained by the principal
+                        components for the combined data.
+  -b BASENAME, --basename BASENAME
+                        Specify the basename for files or directory where
+                        outputwill be placed. Path to existing directory or
+                        basenamewith a trailing '/' will be interpreted as a
+                        directory.If not provided, current directory will be
+                        used.
+  -s SEED, --seed SEED  Specify an integer to use as seed for clustering. 0
+                        gives a random seed, 1 is the default seed and any
+                        other positive integer can be used. Other values give
+                        ArgumentTypeError.
+  -i ITERATIONS, --iterations ITERATIONS
+                        Specify maximum number of iterations for the VBGMM.
+                        Default value is 500
+  -e EPSILON, --epsilon EPSILON
+                        Specify the epsilon for VBGMM. Default value is 1.0e-6
+  --no_cov_normalization
+                        By default the coverage is normalized with regards to
+                        samples, then normalized with regards of contigs and
+                        finally log transformed. By setting this flag you skip
+                        the normalization and only do log transorm of the
+                        coverage.
+  --no_total_coverage   By default, the total coverage is added as a new
+                        column in the coverage data matrix, independently of
+                        coverage normalization but previous to log
+                        transformation. Use this tag to escape this behaviour.
+  --no_original_data    By default the original data is saved to disk. For big
+                        datasets, especially when a large k is used for
+                        compositional data, this file can become very large.
+                        Use this tag if you don't want to save the original
+                        data.
+  -o, --converge_out    Write convergence info to files.
+  -d, --debug           Debug parameters.
+  -v, --version         show program's version number and exit
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                       Starting binning with CONCOCT...                                       -----
+------------------------------------------------------------------------------------------------------------------------
+
+507 16 16
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                   merging 10kb fragments back into contigs                                   -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          splitting contigs into bins                                         -----
+------------------------------------------------------------------------------------------------------------------------
+
+Loading in the bins that the contigs belong to...
+Going through the entire assembly and splitting contigs into their respective bin file...
+Done!
+
+------------------------------------------------------------------------------------------------------------------------
+-----                               CONCOCT finished successfully, and found 18 bins!                              -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                   BINNING PIPELINE SUCCESSFULLY FINISHED!!!                                  #####
+########################################################################################################################
+
+Tue Oct  8 17:46:09 EDT 2024

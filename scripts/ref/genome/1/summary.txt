@@ -1,0 +1,13 @@
+#Summary
+#Generated on	Mon Oct 28 11:06:01 EDT 2024
+#Version	5
+chroms	1
+bases	3745430
+defined	3710230
+undefined	35200
+contigs	69
+scaffolds	63
+interpad	300
+source	/gpfs/gsfs11/users/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF8_metawrap.bin.1.fa
+bytes	3775096
+last modified	1729788928205

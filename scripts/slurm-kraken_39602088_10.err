@@ -1,0 +1,6 @@
+[+] Loading seqtk  1.4 
+[+] Loading kraken  2.1.2 
+Loading database information... done.
+29968487 sequences (8987.60 Mbp) processed in 88.251s (20375.1 Kseq/m, 6110.51 Mbp/m).
+  11586573 sequences classified (38.66%)
+  18381914 sequences unclassified (61.34%)
