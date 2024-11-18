@@ -1,5 +1,0 @@
-Input MAG is /data/NCBR/projects/NCBR-492/data/manual_analysis/bin_refinement/SF6/metawrap_70_5_bins/bin.1.fa -> /data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs/SF6_metawrap.bin.1.fa
-Input trimmed R1 is /data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF6.trimmed.R1.fastq
-Input trimmed R2 is /data/NCBR/projects/NCBR-492/data/manual_analysis/fastp/SF6.trimmed.R2.fastq
-Output saved in /data/NCBR/projects/NCBR-492/data/manual_analysis/MAGs
-sample = SF6, total_reads = 61896294, mapped_reads = 59363042, mapped_fraction = 0
