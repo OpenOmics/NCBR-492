@@ -1,5 +1,5 @@
 # Slurm files
-*/slurm-*
+slurm-*
 # R lanuage specific files 
 # and directories to ignore
 # History files
